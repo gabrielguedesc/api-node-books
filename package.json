@@ -33,7 +33,7 @@
     "TDD"
   ],
   "author": "Gabriel Guedes Correa",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gabrielguedesc/api-node-books/issues"
   },
