@@ -4,10 +4,9 @@
   "description": "API Node para CRUD de livros",
   "main": "server.js",
   "scripts": {
-    "test": "npm run test:unit && npm run test:integration",
+    "test": "cross-env NODE_ENV=test npm run test:unit",
     "test:unit": "cross-env NODE_ENV=test mocha --opts tests/unit/mocha.opts tests/unit/**/*.spec.js",
     "test:unit-tdd": "cross-env NODE_ENV=test mocha --opts tests/unit/mocha.opts tests/unit/**/*.spec.js --watch",
-    "test:integration": "cross-env NODE_ENV=test mocha --opts tests/integration/mocha.opts tests/integration/**/*.spec.js",
     "dev": "nodemon server.js",
     "test:coverage": "nyc npm test"
   },
@@ -46,8 +45,7 @@
     "nodemon": "^1.18.4",
     "nyc": "^13.0.1",
     "sinon": "^6.3.4",
-    "sinon-chai": "^3.2.0",
-    "supertest": "^3.3.0"
+    "sinon-chai": "^3.2.0"
   },
   "dependencies": {
     "body-parser": "^1.18.3",

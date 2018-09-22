@@ -3,7 +3,7 @@
 
 ## Qual a ideia do projeto ?
 
-A ideia do projeto foi colocar em prática os conhecimentos relacionados a testes no ambiente NodeJS, obtidos através da leitura do livro *Construindo APIs testáveis com Node.js* (https://leanpub.com/construindo-apis-testaveis-com-nodejs/) e as aulas do Waldemar Neto (https://www.youtube.com/watch?v=l4glc0XNVbM&list=PLz_YTBuxtxt74aOA2W8ArqZpsPlxP-JC9) autor do livro citado, construindo uma API simples utilizando testes unitários e de integração.
+A ideia do projeto foi colocar em prática os conhecimentos relacionados a testes no ambiente NodeJS, obtidos através da leitura do livro *Construindo APIs testáveis com Node.js* (https://leanpub.com/construindo-apis-testaveis-com-nodejs/) e as aulas do Waldemar Neto (https://www.youtube.com/watch?v=l4glc0XNVbM&list=PLz_YTBuxtxt74aOA2W8ArqZpsPlxP-JC9) autor do livro citado, construindo uma API simples utilizando testes unitários.
 
 ## License
 
